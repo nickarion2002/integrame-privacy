@@ -52,7 +52,7 @@
     }
 
     h1, h2 { letter-spacing: 0; }
-    h1 { margin: 0 0 8px; font-size: clamp(2rem, 7vw, 3.6rem); line-height: 1.05; }
+    h1 { margin: 0 0 8px; font-size: 2rem; line-height: 1.15; overflow-wrap: anywhere; }
     h2 { margin: 36px 0 10px; font-size: 1.25rem; }
     p, ul { margin: 0 0 18px; }
     ul { padding-left: 24px; }
@@ -82,17 +82,25 @@
     <header>
       <div class="mark" aria-hidden="true">I</div>
       <h1>Politica de confidențialitate</h1>
-      <p class="updated">Integrame pentru iPhone și iPad<br>Ultima actualizare: 6 septembrie 2026</p>
+      <p class="updated">Integrame pentru iPhone și iPad<br>Ultima actualizare: 9 septembrie 2026</p>
     </header>
 
     <section>
       <h2>Pe scurt</h2>
-      <p>Aplicația Integrame nu colectează, nu stochează și nu transmite date personale. Nu folosim conturi, reclame, instrumente de analiză sau tehnologii de urmărire.</p>
+      <p>Integrame poate fi folosită fără cont. Conectarea opțională cu Apple sau Google permite sincronizarea progresului între dispozitive, folosind Firebase Authentication și Cloud Firestore, servicii Google. Nu integrăm reclame sau Google Analytics și nu folosim datele contului pentru publicitate.</p>
     </section>
 
     <section>
       <h2>Datele jocului</h2>
-      <p>Progresul, statisticile și preferințele jocului sunt salvate exclusiv pe dispozitivul dumneavoastră. Aceste date nu sunt trimise dezvoltatorului și sunt eliminate la ștergerea aplicației.</p>
+      <p>Fără cont, progresul, statisticile și preferințele rămân pe dispozitiv. Cu un cont, sincronizăm răspunsurile introduse, integramele completate, indiciile folosite, trofeele și zilele de joc. Progresul este asociat identificatorului Firebase al contului. Importul progresului jucat fără cont se face numai la cererea dumneavoastră.</p>
+      <p>Firebase Authentication păstrează identificatorul contului și datele de profil furnizate de Apple sau Google, inclusiv numele și adresa de e-mail dacă sunt disponibile. Serviciile de autentificare pot prelucra date tehnice, precum adresa IP, pentru securitate și prevenirea abuzului. Nu primim parola contului Apple sau Google.</p>
+    </section>
+
+    <section>
+      <h2>Păstrarea și ștergerea contului</h2>
+      <p>Datele sincronizate sunt păstrate cât timp există contul. Din „Contul tău” puteți cere ștergerea contului și a documentului de progres din cloud, după reconfirmarea identității. Dacă operația eșuează, aplicația afișează o eroare și oprește sincronizarea până la finalizarea ștergerii. Ștergerea contului nu anulează achiziția Apple și nu șterge progresul jucat fără cont.</p>
+      <p>Deconectarea și dezinstalarea aplicației nu șterg contul din cloud. Datele locale ale conturilor sunt păstrate separat pe dispozitiv. Copiile locale de pe alte dispozitive pot rămâne până la eliminarea aplicației de pe acele dispozitive. Pentru întrebări sau cereri privind datele personale ne puteți contacta la adresa de mai jos.</p>
+      <p>Serviciile Firebase pot păstra temporar jurnale de securitate și copii de siguranță după o cerere de ștergere, potrivit termenelor publicate în <a href="https://firebase.google.com/support/privacy">documentația de confidențialitate Firebase</a>.</p>
     </section>
 
     <section>
@@ -105,7 +113,8 @@
       <ul>
         <li>Aplicația nu accesează camera, microfonul, locația sau contactele.</li>
         <li>Nu integrăm SDK-uri de publicitate sau analiză.</li>
-        <li>Integramele și imaginile incluse pot fi folosite offline; o conexiune poate fi necesară doar pentru comunicarea cu App Store la cumpărare sau restaurarea achiziției.</li>
+        <li>Integramele și imaginile incluse pot fi folosite offline. Conectarea, sincronizarea, ștergerea contului, cumpărarea și restaurarea achiziției necesită acces la internet.</li>
+        <li>Datele de cont și progres sunt procesate prin infrastructura Google Firebase. Informații suplimentare: <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a> și <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
       </ul>
     </section>
 
